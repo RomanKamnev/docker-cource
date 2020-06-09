@@ -12,8 +12,8 @@ services:
     image: mongo:3.6.2
     volumes:
       - mongo-data:/data/db
-    # ports: 
-      # - 27017:2701
+    ports: 
+      - 27017:27017
 
 volumes:
   redis-data:
