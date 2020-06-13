@@ -54,7 +54,7 @@ services:
     volumes:
       - ./:/var/www/app
     working_dir: /var/www/app
-    user: "1000:1000"
+    # user: "1000:1000"
        
      
 
